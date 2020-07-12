@@ -97,3 +97,43 @@ print(alcohol(21, 4))
 print(alcohol(20, 5))
 print(alcohol(20, 4))
 
+print('\n')
+#Lists - have [] - mutable (can be change)
+movies = ['Harry Potter', 'Constentine', 'ABC', 'YZ'] 
+print(movies)
+print(movies[1])
+print(movies[1:3]) # betn 1 to 3 (3 is excluded)
+print(movies[1:]) # from 1st to all items
+print(movies[:2]) # stop at 2  prints 0,1 item
+print(movies[-1]) # returns last item
+print(len(movies)) # length of list
+movies.append("Fast & Furious 9")
+print(movies)
+movies.pop() # removes last item
+print(movies)
+movies.pop(0) # remove 0 item in movie
+print(movies)
+
+print('\n')
+#Tuples - immutable (Do not change)
+grades = ("a", "b", "c", "d")
+print(grades[1])
+
+print('\n')
+# Loops
+
+#For loops
+vegs = ["Cucumber", "Spinach", "Cabbage"]
+for x in vegs:
+	print(x)
+
+#while loops
+i = 1
+while i < 10:
+	print(i)
+	i += 1
+	
+
+
+
+
